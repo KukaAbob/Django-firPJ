@@ -29,13 +29,13 @@
          </div>
         </div>
             <button class="cart" id="cart">
-            <a href="templates/korzi">
+            <a href="{% url "corzina" %}">
                 <img class="cart__image" src="./static/kor.png" alt="Cart" />
             </a>
             <div class="cart__num" id="cart_num">0</div>
           </button>      
            <button class="floating-registration">
-            <a href="static/logreg.html" class="registration-icon">
+            <a href="{% url "logreg" %}" class="registration-icon">
                 Sign in Log in
             </a>
           </button> 
